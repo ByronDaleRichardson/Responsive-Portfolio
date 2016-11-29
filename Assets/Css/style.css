@@ -213,3 +213,56 @@ input[type=submit] {
   padding: 10px 30px;
   cursor: pointer;
 }
+
+/*media query*/
+
+@media screen and (max-width: 980px) {
+
+#main-container {
+  width: 640px;
+  max-width: 70%
+  margin-top: 20px;
+}
+
+.sidebar {
+  width: 100%;
+  margin-top: 20px;
+  float: left;
+}
+ 
+@media screen and (max-width: 768px) {
+
+#main-container {
+  width: 640px;
+  max-width: 70%
+  margin-top: 20px;
+}
+
+.sidebar {
+  width: 100%;
+  margin-top: 20px;
+  max-width: 100%;
+} 
+
+@media screen and (max-width: 640px) {
+
+#masthead {
+  position: static;
+}
+
+#logo {
+  width: 100%
+}
+
+#main-container {
+  width: 640px;
+  max-width: 70%
+  margin-top: 20px;
+}
+
+.sidebar {
+  width: 100%;
+  margin-top: 20px;
+  max-width: 100%;
+}
+
